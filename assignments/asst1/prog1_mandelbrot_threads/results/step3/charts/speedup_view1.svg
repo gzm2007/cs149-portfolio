@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="584" viewBox="0 0 800 584" role="img" aria-label="Program 1 — speedup vs. threads (contiguous blocks)">
+<rect width="800" height="584" fill="#fcfcfb"/>
+<text x="40.00" y="34.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="20.00" fill="#0b0b0b" font-weight="bold" text-anchor="start" opacity="1.00">Program 1 — speedup vs. threads (contiguous blocks)</text>
+<text x="40.00" y="56.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="11.00" fill="#52514e" font-weight="normal" text-anchor="start" opacity="1.00">View 1 · steps 1-3: each thread owns one contiguous band of rows</text>
+<text x="40.00" y="74.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="start" opacity="1.00">Intel Core Ultra 9 285H · 6 P-cores + 8 E-cores + 2 LP E-cores = 16 logical CPUs · fastest of 5 runs per process, best of 3 processes</text>
+<text x="40.00" y="118.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="15.00" fill="#0b0b0b" font-weight="bold" text-anchor="start" opacity="1.00">View 1</text>
+<line x1="110.00" y1="466.00" x2="736.00" y2="466.00" stroke="#e1e0d9" stroke-width="1.00" opacity="1.00"/>
+<text x="102.00" y="470.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="end" opacity="1.00" style="font-variant-numeric: tabular-nums">0</text>
+<line x1="110.00" y1="411.00" x2="736.00" y2="411.00" stroke="#e1e0d9" stroke-width="1.00" opacity="1.00"/>
+<text x="102.00" y="415.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="end" opacity="1.00" style="font-variant-numeric: tabular-nums">4</text>
+<line x1="110.00" y1="356.00" x2="736.00" y2="356.00" stroke="#e1e0d9" stroke-width="1.00" opacity="1.00"/>
+<text x="102.00" y="360.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="end" opacity="1.00" style="font-variant-numeric: tabular-nums">8</text>
+<line x1="110.00" y1="301.00" x2="736.00" y2="301.00" stroke="#e1e0d9" stroke-width="1.00" opacity="1.00"/>
+<text x="102.00" y="305.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="end" opacity="1.00" style="font-variant-numeric: tabular-nums">12</text>
+<line x1="110.00" y1="246.00" x2="736.00" y2="246.00" stroke="#e1e0d9" stroke-width="1.00" opacity="1.00"/>
+<text x="102.00" y="250.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="end" opacity="1.00" style="font-variant-numeric: tabular-nums">16</text>
+<line x1="110.00" y1="191.00" x2="736.00" y2="191.00" stroke="#e1e0d9" stroke-width="1.00" opacity="1.00"/>
+<text x="102.00" y="195.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="end" opacity="1.00" style="font-variant-numeric: tabular-nums">20</text>
+<line x1="110.00" y1="136.00" x2="736.00" y2="136.00" stroke="#e1e0d9" stroke-width="1.00" opacity="1.00"/>
+<text x="102.00" y="140.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="end" opacity="1.00" style="font-variant-numeric: tabular-nums">24</text>
+<line x1="110.00" y1="136.00" x2="110.00" y2="466.00" stroke="#c3c2b7" stroke-width="1.00" opacity="1.00"/>
+<line x1="110.00" y1="466.00" x2="736.00" y2="466.00" stroke="#c3c2b7" stroke-width="1.00" opacity="1.00"/>
+<text x="110.00" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">1</text>
+<text x="137.22" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">2</text>
+<text x="164.43" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">3</text>
+<text x="191.65" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">4</text>
+<text x="218.87" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">5</text>
+<text x="246.09" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">6</text>
+<text x="273.30" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">7</text>
+<text x="300.52" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">8</text>
+<text x="518.26" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">16</text>
+<text x="736.00" y="484.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00" style="font-variant-numeric: tabular-nums">24</text>
+<line x1="246.09" y1="136.00" x2="246.09" y2="466.00" stroke="#898781" stroke-width="1.00" opacity="0.70" stroke-dasharray="4 5"/>
+<text x="246.09" y="150.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="9.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00">6 P-cores</text>
+<line x1="518.26" y1="136.00" x2="518.26" y2="466.00" stroke="#898781" stroke-width="1.00" opacity="0.70" stroke-dasharray="4 5"/>
+<text x="518.26" y="150.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="9.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00">16 logical CPUs</text>
+<line x1="110.00" y1="452.25" x2="736.00" y2="136.00" stroke="#898781" stroke-width="1.50" opacity="1.00" stroke-dasharray="5 5"/>
+<text x="566.70" y="210.50" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="end" opacity="1.00">ideal linear (y = x)</text>
+<polyline points="110.00,452.11 137.22,438.50 164.43,443.04 191.65,431.35 218.87,430.80 246.09,419.94 273.30,417.46 300.52,410.31 518.26,368.38 736.00,342.94" fill="none" stroke="#2a78d6" stroke-width="2.20" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="110.00" cy="452.11" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>1 threads: 1.01x</title></circle>
+<circle cx="137.22" cy="438.50" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>2 threads: 2.00x</title></circle>
+<circle cx="164.43" cy="443.04" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>3 threads: 1.67x</title></circle>
+<circle cx="191.65" cy="431.35" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>4 threads: 2.52x</title></circle>
+<circle cx="218.87" cy="430.80" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>5 threads: 2.56x</title></circle>
+<circle cx="246.09" cy="419.94" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>6 threads: 3.35x</title></circle>
+<circle cx="273.30" cy="417.46" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>7 threads: 3.53x</title></circle>
+<circle cx="300.52" cy="410.31" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>8 threads: 4.05x</title></circle>
+<circle cx="518.26" cy="368.38" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>16 threads: 7.10x</title></circle>
+<circle cx="736.00" cy="342.94" r="4.50" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2.00"><title>24 threads: 8.95x</title></circle>
+<text x="726.00" y="330.94" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="11.00" fill="#0b0b0b" font-weight="bold" text-anchor="end" opacity="1.00">8.95×</text>
+<text x="58.00" y="301.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="11.00" fill="#52514e" font-weight="normal" text-anchor="middle" opacity="1.00" transform="rotate(-90.0 58.00 301.00)">Speedup vs. serial</text>
+<text x="423.00" y="514.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="11.00" fill="#52514e" font-weight="normal" text-anchor="middle" opacity="1.00">Number of threads</text>
+<text x="400.00" y="566.00" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="10.00" fill="#898781" font-weight="normal" text-anchor="middle" opacity="1.00">Source: results/step3 — fastest of 5 runs per process, best of 3 processes.</text>
+</svg>

@@ -1,0 +1,26 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+*.snapshot
+
+# Per-run measurement logs
+*.log
+**/raw/
+
+# Generated / large data
+*.dat
+*.par
+*.pt
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
